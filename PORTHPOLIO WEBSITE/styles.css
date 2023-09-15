@@ -1,0 +1,139 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.main
+{
+	width: 100%;
+	background: url(bg3.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
+}
+.navbar .logo
+{
+	width: 60px;
+	cursor: pointer;
+	margin-top: -3%;
+	margin-left: -2%;
+	height: 50px;
+}
+
+.navbar
+{
+	width: 86%;
+	display: flex;
+	margin: auto;
+	padding: 15px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+ul
+{
+	margin: 1.5%;
+}
+
+ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+ul li a
+{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	margin-top: -3%;
+}
+
+ul li a:hover{
+	color: #7532a8;
+}
+
+.info
+{
+	margin-left: 7%;
+	margin-top: 6%; 
+}
+.info h1
+{
+	font-size: 65px;
+	color: rgb(36,32,30);
+}
+
+.info h3
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.info span
+{
+	color: #4232a8;
+}
+
+.info a
+{
+	text-decoration: none;
+	color: #fff;
+	background: rgb(36,30,30);
+	margin: 26px 0;
+	padding: 10px 18px;
+	border-radius: 10px;
+	display: inline-block;
+	transition: 3s ease;
+}
+
+.info a:hover
+{
+	background: #7532a8;
+}
+.image
+{
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+}
+
+.image img{
+
+	position: absolute;
+	height: 140%;
+	left: 70%;
+	transform: translate(-55%);
+	bottom: 0;
+	transition: left 2s ease;
+}
+
+.image:hover .boy
+{
+	left: 55%;
+}
+
+.icons a
+{
+	text-decoration: none;
+
+}
+
+.icons ion-icon{
+	margin-left: 7%;
+	color: #000;
+	margin-right: -60px;
+	font-size: 40px;
+	transition: 3s ease;
+}
+
+.icons ion-icon:hover{
+	color: #a8328d;
+}
